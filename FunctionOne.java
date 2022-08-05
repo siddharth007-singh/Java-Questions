@@ -29,22 +29,18 @@ public class FunctionOne{
     //     System.out.println("The Product of Two Number : "+ sum);
     // }    
 
-    // public static void factorialNum(int num){
-    //     int i;
-    //     int fact = 1;
-    //     for(i=num; i>=1; i--){
-    //         fact = fact*i;
-    //     }
-    //     System.out.println(fact);
-    //     return; 
-    // }
+    public static void factorialNum(int num){
+        int i;
+        int fact = 1;
+        for(i=num; i>=1; i--){
+            fact = fact*i;
+        }
+        System.out.println(fact);
+        return; 
+    }
 
-    // public static void main(String[] args) {
-    //     int num = 4;
-    //     factorialNum(num);
-    // }
-
-    public static void main(String[] args) {    
-        
+    public static void main(String[] args) {
+        int num = 4;
+        factorialNum(num);
     }
 }
