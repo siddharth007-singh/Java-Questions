@@ -1,6 +1,7 @@
+package Array;
 
 //Using XoR gate formula
-public class test {
+public class unique_element {
     public static void main(String[] args) {
         int arr[] = new int []{1,2,1,2,3};
         int n = arr.length;
