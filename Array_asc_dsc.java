@@ -21,7 +21,7 @@ public class Array_asc_dsc {
     
 
     public static void main(String args[]){
-        int Sort[]  =new int[]{3, 4, 6, 2};
+        int Sort[] =new int[]{3, 4, 6, 2};
         //Print The array Frist;
         System.out.println("Array: "+ Arrays.toString(Sort));
         SortingAscDsc(Sort);

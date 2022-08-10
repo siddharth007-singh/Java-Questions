@@ -1,12 +1,12 @@
 package Array;
 import java.util.Arrays;
 
-public class Store_Count {
+public class StoreCount {
 
     public static void countOccurance(int arr[]) {
         Arrays.sort(arr);
         for(int i=0; i<arr.length; i++){
-            int count =1;
+            int count=1;
             if(i!=arr.length-1){
                 for(int j=i+1; j<arr.length; j++){
                     if(arr[i]==arr[j])
