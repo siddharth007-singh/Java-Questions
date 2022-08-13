@@ -8,7 +8,7 @@ public class SortOneTwo {
     }
 
     public static void main(String[] args) {
-        int arr[] = {0,1,1,0,0,1,2,1,0,2};
+        int arr[] = {0,1,1,0,0,1,2,1,0,2,8};
         int n = arr.length;
 
         int s=0, m=0, e=0;
