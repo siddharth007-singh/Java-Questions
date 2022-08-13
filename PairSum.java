@@ -7,8 +7,8 @@ public class PairSum {
         for(int i=0; i<n; i++){
             for(int j=i+1; j<n; j++){
                 if(arr[i]+arr[j]==key){
-                    System.out.print("The pair is are as Follow: "+ arr[i]);
-                    System.out.print("The pair is are as Follow: "+ arr[j]);
+                    System.out.println("The pair is are as Follow: "+ arr[i]);
+                    System.out.println("The pair is are as Follow: "+ arr[j]);
                 }
             }
         }
