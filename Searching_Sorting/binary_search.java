@@ -16,7 +16,7 @@ public class binary_search {
             else{
                 e = mid-1;
             }
-            mid=(s+e)/2;
+            mid=(s+e)/2
         }
         return -1;
     }   
