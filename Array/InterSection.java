@@ -14,7 +14,7 @@ public class InterSection {
             }
             else{
                 j++;
-            }
+            }   
         }
     }
 
